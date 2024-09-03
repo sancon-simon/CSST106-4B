@@ -37,8 +37,31 @@ OCR software’s performance hinges on the quality of the source images or docum
 
 ## Image Processing Implementation
 
-| Image 1                  | Image 2                  |
+| Model                  |Before and After           |
 |--------------------------|--------------------------|
-| ![Image 1](![Screenshot 2024-09-03 142557](https://github.com/user-attachments/assets/cd996441-ffb3-479a-87bb-ff511fb52b5d))   | ![Image 2](![Screenshot 2024-09-03 142622](https://github.com/user-attachments/assets/0667812f-de82-4a93-8446-1d9b552ee787))   |
+| ![Screenshot 2024-09-03 142557](https://github.com/user-attachments/assets/cd996441-ffb3-479a-87bb-ff511fb52b5d)   | ![Screenshot 2024-09-03 142622](https://github.com/user-attachments/assets/0667812f-de82-4a93-8446-1d9b552ee787)   |
+
+This OCR model addresses the poor lighting issues of captured image with different values of shadows, this pose a problem that can confuse the OCR system of the black and white values, this model utilizes the parameter adaptive_thresh_mean filter to binarize the image in an adaptive manner, this takes the average values of black and whites and set a threshold for them to normalize the photo.
+
+## Conclusion
+
+Image processing is essential in computer vision, because computers does not perceive the world with the same quality as us,  Effective image processing enables AI systems to enhance and analyze images, extract meaningful information that be used to automate different tasks.
+
+From this activity, i learned that image quality directly impacts computer vision model performance, and using techniques like filtering, edge detection and segmentation can significantly improve the accuracy of data extraction.
+
+## Extension Activity
+Research an Emerging Form of Image Processing
+
+## Image processing evolution
+
+The technique of improving the quality of digital images by manipulation, enhancement and analysis of captured photos to extract useful information, has evolved significantly over the years. Traditional techniques such as filtering, enhancement, and segmentation paved the way for a more advance methods. Today, image processing encompasses a wide range of operations, including noise reduction, edge detection, feature extraction, and pattern recognition. With the rise of deep learning, convolutional neural networks (CNNs) have revolutionized image processing, enabling tasks such as image classification, object detection, and semantic segmentation with unprecedented accuracy and efficiency.
+
+## Potential Impact
+
+The impact of image processing and computer vision are transforming various industries. For example in the fields of healthcare, they assist with diagnosing diseases, planning treatments, and guiding surgeries with the help of advanced imaging techniques. For autonomous vehicles, these technologies let cars to see their environments, detect obstacles, and drive smoothly. Finally In manufacturing, image processing helps ensure the quality of the products by automatically inspecting and detecting damages.
+
+
+
+
 
 
