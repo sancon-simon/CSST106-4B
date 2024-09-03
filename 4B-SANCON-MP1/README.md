@@ -1,6 +1,8 @@
 # Exploring the Role of Computer Vision and Image Processing in AI
 ## Sancon, Simon B - BSCS4B
 
+(https://drive.google.com/file/d/1jGWAayHcPDPL1OzwGbChj0NPprPPFgyy/view?usp=sharing)
+
 ## Introduction to Computer Vision and Image Processing
 Computer vision is a field of AI that uses machine learning and neural networks to help computers interpret and derive meaningful information from digital images, videos, and other visual inputs. It builds on image processing techniques to analyze visual data, make recommendations, and take actions based on detected patterns or defects.
 
