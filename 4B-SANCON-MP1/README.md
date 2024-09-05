@@ -45,6 +45,11 @@ OCR software’s performance hinges on the quality of the source images or docum
 
 This OCR model addresses the poor lighting issues of captured image with different values of shadows, this pose a problem that can confuse the OCR system of the black and white values, this model utilizes the parameter adaptive_thresh_mean filter to binarize the image in an adaptive manner, this takes the average values of black and whites and set a threshold for them to normalize the photo.
 
+### importing libraries
+'''from PIL import Image
+import cv2
+import matplotlib.pyplot as plt
+
 ## Conclusion
 
 Image processing is essential in computer vision, because computers does not perceive the world with the same quality as us,  Effective image processing enables AI systems to enhance and analyze images, extract meaningful information that be used to automate different tasks.
