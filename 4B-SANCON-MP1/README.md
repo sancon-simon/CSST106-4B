@@ -39,19 +39,61 @@ OCR software’s performance hinges on the quality of the source images or docum
 
 ## Image Processing Implementation
 
+### 1. Loading libraries
+
+```markdown
+# Import PIL for reading the image
+from PIL import Image
+# Import cv2 for image processing and manipulation
+import cv2
+# Import matplotlib for data visualization
+import matplotlib.pyplot as plt
+```
+
+### 2. Reading the image
+
+```markdown
+# Read the image
+img = cv2.imread("curated/53.jpg")
+```
+
+### 3. Image processing (Grayscaling, Thresholding, Binarization)
+
+```markdown
+# Convert image to grayscale
+gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# Apply adaptive thresholding and binarization
+binarized_image = cv2.adaptiveThreshold(gray_image, 200, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 5)
+```
+
+### 4. Visulization of Output
+
+```markdown
+# Create a figure with two subplots
+plt.figure(figsize=(12, 6))
+
+# Plot the grayscale image
+plt.subplot(1, 2, 1)  # 1 row, 2 columns, 1st subplot
+plt.title("Grayscale Image")
+plt.imshow(cv2.cvtColor(gray_image, cv2.COLOR_GRAY2RGB))
+plt.axis('off')
+
+# Plot the binarized image
+plt.subplot(1, 2, 2)  # 1 row, 2 columns, 2nd subplot
+plt.title("Binarized Image")
+plt.imshow(cv2.cvtColor(binarized_image, cv2.COLOR_GRAY2RGB))
+plt.axis('off')
+
+# Show the plot
+plt.tight_layout()
+plt.show()
+```
+
 | Model                  |Before and After           |
 |--------------------------|--------------------------|
 | ![Screenshot 2024-09-03 142557](https://github.com/user-attachments/assets/cd996441-ffb3-479a-87bb-ff511fb52b5d)   | ![Screenshot 2024-09-03 142622](https://github.com/user-attachments/assets/0667812f-de82-4a93-8446-1d9b552ee787)   |
 
 This OCR model addresses the poor lighting issues of captured image with different values of shadows, this pose a problem that can confuse the OCR system of the black and white values, this model utilizes the parameter adaptive_thresh_mean filter to binarize the image in an adaptive manner, this takes the average values of black and whites and set a threshold for them to normalize the photo.
-
-### importing libraries
-
-```markdown
-from PIL import Image
-import cv2
-import matplotlib.pyplot as plt
-```python
 
 ## Conclusion
 
