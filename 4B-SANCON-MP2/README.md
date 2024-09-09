@@ -106,7 +106,7 @@ There are 2 common challenges that was experienced during the Problem-Solving Se
 The figure above is one common issue that will be tackled whenever an implementation was conducted, this includes spelling, misused variables, and unfamiliarity of syntax or library.
 
 
-3. Finding the right value
+2. Finding the right value
    
 ![image](https://github.com/user-attachments/assets/4186a81f-3177-4981-b91c-de8c40505434)
 
