@@ -1,4 +1,4 @@
-Machine Problem 2: Image Processing Techniques 
+# Machine Problem 2: Image Processing Techniques 
 ## Sancon, Simon B - BSCS4B
 
 # Exercise1-Image-Processing-Techniques
@@ -100,16 +100,22 @@ display_image(edge, "Canny Edge Detection")
 There are 2 common challenges that was experienced during the Problem-Solving Session
 
 1. Syntax error
+   
 ![image](https://github.com/user-attachments/assets/a0d076c8-9f0c-4673-a564-b4ba3dedf85b)
+
 The figure above is one common issue that will be tackled whenever an implementation was conducted, this includes spelling, misused variables, and unfamiliarity of syntax or library.
 
 
-2. Finding the right value
+3. Finding the right value
+   
 ![image](https://github.com/user-attachments/assets/4186a81f-3177-4981-b91c-de8c40505434)
+
 The figure above shows that finding the right value of the applied image processing techniques requires some trial and error to produce the desired result.
 
 ### Scenario-Based Problems: 
+
 ![image](https://github.com/user-attachments/assets/9683cbee-0aa3-4e46-afcb-ddd08b3fc1c3)
+
 The figure above shows that we can apply Blurring to enhance a photo to reduce noise from the photo
 
 
