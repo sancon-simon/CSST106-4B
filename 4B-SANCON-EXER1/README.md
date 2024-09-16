@@ -449,6 +449,7 @@ plt.axis("off")
 
 plt.show()
 ```
+### Over all Visualization
 
 ![image](https://github.com/user-attachments/assets/a15cf785-c6a1-4609-b320-478ed43df889)
 
@@ -456,5 +457,8 @@ plt.show()
 
 ![image](https://github.com/user-attachments/assets/78df4ac6-8f4b-4935-b719-4f5478b4bf04)
 
+### Effectiveness Comparison
+
+![image](https://github.com/user-attachments/assets/0ce92779-de39-49c6-99b7-9c01fa43bd56)
 
 
