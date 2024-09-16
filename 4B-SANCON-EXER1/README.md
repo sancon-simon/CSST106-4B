@@ -3,6 +3,8 @@
 
 ## Colab Notebook
 https://colab.research.google.com/drive/1ra8S-dnOLtrFGJsRjb7BpxBtTyYQhk7F?usp=sharing
+
+## PDF File
 [4B-SANCON-EXER1.pdf](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-EXER1/4B-SANCON-EXER1.pdf)
 
 ## Hands-On Exploration:
