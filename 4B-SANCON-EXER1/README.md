@@ -3,6 +3,7 @@
 
 ## Colab Notebook
 https://colab.research.google.com/drive/1ra8S-dnOLtrFGJsRjb7BpxBtTyYQhk7F?usp=sharing
+[4B-SANCON-EXER1.pdf](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-EXER1/4B-SANCON-EXER1.pdf)
 
 ## Hands-On Exploration:
 ### 1. Install OpenCV
@@ -448,7 +449,9 @@ plt.show()
 ```
 
 ![image](https://github.com/user-attachments/assets/a15cf785-c6a1-4609-b320-478ed43df889)
+
 ![image](https://github.com/user-attachments/assets/4e6b1af2-a3f9-4080-8f9e-cdc1b14f497c)
+
 ![image](https://github.com/user-attachments/assets/78df4ac6-8f4b-4935-b719-4f5478b4bf04)
 
 
