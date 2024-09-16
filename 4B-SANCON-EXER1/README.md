@@ -459,6 +459,7 @@ plt.show()
 
 ### Effectiveness Comparison
 
-![image](https://github.com/user-attachments/assets/0ce92779-de39-49c6-99b7-9c01fa43bd56)
+![image](https://github.com/user-attachments/assets/4a8ff2b2-cf51-4a6b-a3c6-c55bd694e8ef)
+
 
 
