@@ -1,8 +1,10 @@
 # 4B-SANCON-EXER2
 ## Sancon, Simon B - BSCS4B
 
-## Colab Notebook
-[4B-SANCON-ECER2.ipynb](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-EXER2/code/4B_SANCON_EXER2.ipynb)
+## Important Links
+1. [Actual_Notebook](https://colab.research.google.com/drive/1aEsW9dqO__-siCgjMVcdhQo9WAUroIYO?usp=sharing)
+2. [Repository Notebook](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-EXER2/code/4B_SANCON_EXER2.ipynb)
+3. [Image_Folder](https://github.com/sancon-simon/CSST106-4B/tree/main/4B-SANCON-EXER2/images)
 
 ## Task 1: SIFT Feature Extraction
 
