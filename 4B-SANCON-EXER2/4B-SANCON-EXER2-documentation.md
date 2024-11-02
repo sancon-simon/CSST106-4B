@@ -5,6 +5,9 @@
 [4B-SANCON-ECER2.ipynb](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-EXER2/code/4B_SANCON_EXER2.ipynb)
 
 ## Task 1: SIFT Feature Extraction
+
+This Section includes the steps of conduction Feature Extraction utilizing SIFT
+
 ### 1.1 Connecting to Google Drive
 
 ```markdown
@@ -41,9 +44,15 @@ plt.axis("off")
 plt.title("SIFT Keypoints")
 plt.show()
 ```
+
 ![image](https://github.com/user-attachments/assets/d512ec06-3f02-488b-a94f-4a4baaa1445f)
 
 ## Task 2: SURF Feature Extraction
+
+This Section includes conducting Feature Extraction utilizing SURF in here
+the openCV dependency was modified/updated to accomodate the use of SURF algorithm
+because SURF is not accesible with the standard opencv module
+
 ### 2.1 Updating OpenCV to make SURF work
 
 ```markdown
@@ -101,7 +110,10 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/167848e5-bbdd-4a08-b5e8-7ab469e522a4)
 
 
-## Task 3: Applying ORB and Visualize Image
+## Task 3: ORB Feature Extraction
+
+This Section includes conducting Feature Extraction utilizing ORB
+
 ### 3.1 Loading Image
 
 ```markdown
@@ -131,6 +143,10 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/243ed8cd-14c4-4299-87fc-32027969894e)
 
 ## Task 4: Feature Matching 
+
+This section includes conducting Feature Matching utilizing SIFT and BFmatcher
+To show the effectiveness of the matcher the other image was deliberately rotated
+
 ### 4.1 Feature Matching with SIFT
 
 ```markdown
@@ -166,6 +182,10 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/0cd34a42-f879-4c29-b29e-2bf442f1922d)
 
 ## Task 5: Application of Feature Matching
+
+This section includes conducting Feature Matching utilizing SIFT and Homography
+To show the effectiveness of the alignment the original image was deliberately rotated
+
 ### 5.1 Image Alignment Using Homography
 
 ```markdown
@@ -226,6 +246,10 @@ plt.show()
 
 
 ## Task 6: Combining Feature Extraction Methods
+
+This Section includes conducting feature extraction utilizing two methods
+SIFT and ORB Feature Matching was showcased in this section
+
 ### 6.1 SIFT and ORB Feature Matching
 
 ```markdown
