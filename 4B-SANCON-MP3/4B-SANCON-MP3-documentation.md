@@ -8,7 +8,7 @@
 4. [Feature_matching.py](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/feature_matching.py)
 5. [Image_alignment.py](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/image_alignment.py)
 6. [Image_folder](https://github.com/sancon-simon/CSST106-4B/tree/main/4B-SANCON-MP3/images)
-7. [Performance Analysis]()
+7. [Performance Analysis](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/performance_analysis/performance_analysis.md)
 
 ## Hands-On Exploration:
 
