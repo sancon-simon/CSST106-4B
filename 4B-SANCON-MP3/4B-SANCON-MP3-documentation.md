@@ -1,9 +1,14 @@
 # 4B-SANCON-MP3
 ## Sancon, Simon B - BSCS4B
 
-## Colab Notebook
+## Important Links
 1. [Actual Notebook](https://colab.research.google.com/drive/1o-BoWWtT2daByHihTrGOgNoy4QFE5Zv2?usp=sharing)
 2. [Repository Notebook](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/4B_SANCON_MP3.ipynb)
+3. [Feature_extraction.py](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/feature_extraction.py)
+4. [Feature_matching.py](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/feature_matching.py)
+5. [Image_alignment.py](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/image_alignment.py)
+6. [Image_folder](https://github.com/sancon-simon/CSST106-4B/tree/main/4B-SANCON-MP3/images)
+7. [Performance Analysis]()
 
 ## Hands-On Exploration:
 
