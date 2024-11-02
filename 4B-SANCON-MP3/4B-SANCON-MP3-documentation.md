@@ -2,12 +2,12 @@
 ## Sancon, Simon B - BSCS4B
 
 ## Colab Notebook
-[Actual Notebook](https://colab.research.google.com/drive/1o-BoWWtT2daByHihTrGOgNoy4QFE5Zv2?usp=sharing)
-[Repository Notebook](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/4B_SANCON_MP3.ipynb)
+1. [Actual Notebook](https://colab.research.google.com/drive/1o-BoWWtT2daByHihTrGOgNoy4QFE5Zv2?usp=sharing)
+2. [Repository Notebook](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP3/code/4B_SANCON_MP3.ipynb)
 
 ## Hands-On Exploration:
 
-The First following steps zeros including environment preparation
+The First following steps zeros includes environment preparation
 encompassing updating opencv environment to make surf work,
 importing libraries, initializing calculation functions and save paths
 
