@@ -10,26 +10,36 @@
 
 ### This Section includes the applications of Feature Extraction Methods
 
-1. Harris Corner Deetection - Harris Corner Detection is a classic corner detection algorithm. Use the Harris Corner Detection
-algorithm to detect corners in an image.
+1. Harris Corner Deetection - Harris Corner Detection is a classic corner detection algorithm.
+   
   • Harris Corner Detection is used to find corners, which are points of interest
+  
   • It’s particularly useful for corner detection in images where object edges intersect.
   
-2. HOG (Histogram of Oriented Gradients) Feature Extraction - The HOG descriptor is widely used for object detection, especially in human detection.
+3. HOG (Histogram of Oriented Gradients) Feature Extraction - The HOG descriptor is widely used for object detection, especially in human detection.
+   
   • HOG focuses on the structure of objects through gradients.
+  
   • Useful for human detection and general object recognition
   
-3. FAST (Features from Accelerated Segment Test) Keypoint Detection - FAST is another keypoint detector known for its speed.
+5. FAST (Features from Accelerated Segment Test) Keypoint Detection - FAST is another keypoint detector known for its speed.
+   
   • FAST is designed to be computationally efficient and quick in detecting keypoints.
+  
   • It is often used in real-time applications like robotics and mobile vision.
 
-4. Feature Matching using ORB and FLANN - Using ORB descriptors to find and match features between two images using FLANN-based matching
+7. Feature Matching using ORB and FLANN - Using ORB descriptors to find and match features between two images using FLANN-based matching
+   
   • ORB is fast and efficient, making it suitable for resource-constrained environments.
+
   • FLANN (Fast Library for Approximate Nearest Neighbors) speeds up the matching process, making
+  
   it ideal for large datasets.
 
-5. Image Segmentation using Watershed Algorithm - The Watershed algorithm segments an image into distinct regions.
+9. Image Segmentation using Watershed Algorithm - The Watershed algorithm segments an image into distinct regions.
+    
   • Image segmentation is crucial for object detection and recognition.
+  
   • The Watershed algorithm is especially useful for separating overlapping objects.
 
 ### 0.1 Connect to Drive
