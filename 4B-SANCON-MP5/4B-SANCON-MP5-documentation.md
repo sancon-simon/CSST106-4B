@@ -8,27 +8,23 @@
 
 ## Hands-On Exploration
 
-0.1 Connect to Drive
-  * This step involves mounting Google Drive to access files stored there.
-0.2 Installing Dependencies
-  * In this step, the YOLOv3 TensorFlow implementation is cloned from GitHub, and the required Python packages are installed using a requirements file.
-0.3 Downloading YOLO Model Weights and Converting to TensorFlow Format
-  * This section downloads the pre-trained YOLOv3 weights from a specified URL and converts them into a TensorFlow-compatible format using a conversion script.
-0.4 Importing Libraries
-  * Essential libraries for image processing, numerical operations, and TensorFlow functionalities are imported. This includes libraries like OpenCV, NumPy, TensorFlow, and others necessary for running the YOLO model.
+This machine problem involves utilizing yolo model and ssd model to conduct object detection and recognition methods
+The model was tested on at least three different images to compare its performance and observe its accuracy
+The model weights was downloaded and was convert to accomodate tensorflow format
+
+Step zeros 
+  * Connect to Drive
+  * Installing Dependencies
+  * Downloading YOLO Model Weights and Converting to TensorFlow Format
+  * Importing Libraries
+
 1. Load YOLO Model Using TensorFlow
-  * In this part, command-line flags are parsed, parameters such as class names and weights paths are defined, the YOLO model is instantiated with the number of classes, and the model weights are loaded. The class names are also read from a file.
 2. Image Input
-  * Here, paths to images that will be processed for object detection are initialized.
 3. Object Detection
-  * This section describes how to read an image, preprocess it for the model, and run inference to detect objects within the image.
 4. Visualization
-  * The inference time is printed, and detected objects along with their confidence scores and bounding box coordinates are displayed. The results are visualized on the original image using Matplotlib.
 5. Testing
-  * In this step, each image in the previously defined list is processed for object detection in a loop, where inference times and detection results are printed and visualized for each image.
 6. Performance Analysis
-  * This section would typically involve analyzing the performance of the object detection process in terms of speed (inference time) and accuracy (detection results). This summary captures the key components of your hands-on exploration without including any code snippets.
-    
+   
 ### 0.1 Connect to Drive
 
 ```markdown
