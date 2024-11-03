@@ -2,12 +2,21 @@
 ## Sancon, Simon B - BSCS4B
 
 ## Important Links
-1. [Actual Notebook]()
-2. [Repository Notebook]()
-3. [Image Folder]()
+1. [Actual Notebook](https://colab.research.google.com/drive/1I0e3q6n40YHugM4gsMvEnmzHdfG3UvW4?usp=sharing)
+2. [Repository Notebook](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP4/code/4B_SANCON_MP4.ipynb)
+3. [Image Folder](https://github.com/sancon-simon/CSST106-4B/tree/main/4B-SANCON-MP4/images)
 4. [Performance Analysis]()
 
 ## Hands-On Exploration
+
+This machine problem shows the implementation of various feature extraction and matching algorithms to
+process, analyze, and compare different images. This shows the utilization of techniques such as SIFT, SURF, ORB, HOG,
+and Harris Corner Detection to extract keypoints and descriptors. Also this showcases feature matching
+between pairs of images using the FLANN and Brute-Force matchers. Finally, asegmentation using the Watershed algorithm.
+
+Note: OpenCV was updated in this project because standard opencv does not work well with surf also,
+To streamline the process functions was initially defined in the stepzeros.
+Original Images for better interpretation of the performance.
 
 ### 0.1 Connect to Google Drive
 
