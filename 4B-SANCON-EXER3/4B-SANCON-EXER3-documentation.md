@@ -10,17 +10,14 @@
 
 ### This Section includes the applications of Feature Extraction Methods
 
-1. Harris Corner Deetection - Harris Corner Detection is a classic corner detection algorithm.
-   
-  • Harris Corner Detection is used to find corners, which are points of interest
-  
-  • It’s particularly useful for corner detection in images where object edges intersect.
+1. Harris Corner Deetection - Harris Corner Detection is a classic corner detection algorithm. 
+   * Harris Corner Detection is used to find corners, which are points of interest
+   * It’s particularly useful for corner detection in images where object edges intersect.
   
 3. HOG (Histogram of Oriented Gradients) Feature Extraction - The HOG descriptor is widely used for object detection, especially in human detection.
    
-  • HOG focuses on the structure of objects through gradients.
-  
-  • Useful for human detection and general object recognition
+  * HOG focuses on the structure of objects through gradients.
+  * Useful for human detection and general object recognition
   
 5. FAST (Features from Accelerated Segment Test) Keypoint Detection - FAST is another keypoint detector known for its speed.
    
