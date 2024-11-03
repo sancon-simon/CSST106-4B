@@ -9,7 +9,7 @@ The Model Hog performed worse than the YOLO Algorithm in Object detection
 From Evaluating with the same dataset as shown in FIGURE 3. i observed that the SCM-HOG model
 displays a quick training time as shown in the FIGURE 2. the training time is not displayed
 but it observed it. Based on that observation SVM-HOG was concluded to be advantagious when
-computational power is a concern, and deep learning algorithms such as YOLO will be optimal for performance purposes
+computational power is a concern, and deep learning algorithms such as YOLO will be optimal for performance purposes.
 
 Figure 1:
 
