@@ -10,7 +10,7 @@
 
 ## Hands On Exploration
 
-1. Selection of Dataset and Algorithm:
+### 1. Selection of Dataset and Algorithm:
    
 This Mid-Term Project includes implementing object detection on dataset
 The Algorithm that was used is YOLOv5 and the dataset utilized was Pascal VOC 2012 Dataset
@@ -19,7 +19,7 @@ The algorithm was selected for computing constraints reasons and compatibility f
 
 ![image](https://github.com/user-attachments/assets/0f0210aa-5e56-4eb4-8e94-8d5d38f89cb9)
 
-2. Implementation:
+### 2. Implementation:
 
 2.1 Data Preparation:
 
@@ -133,15 +133,17 @@ In this section the performance of the trained is tested in detecting objects.
 
 ![image](https://github.com/user-attachments/assets/9933b6f1-1aa2-4b6c-a8c2-f3ec3e821aeb)
 
-3. Evaluation
+### 3. Evaluation
 
 In the evaluation section ssd model was the model selected for comparison.
 The YOLO and SSD model was evaluated with the same dataset further preprocessing was done for evaluation accuracy.
 
 SSD evaluation metrics:
+
 ![image](https://github.com/user-attachments/assets/40832bba-8827-46e8-8d2e-fc1885462068)
 
 YOLO evaluation metrics:
+
 ![image](https://github.com/user-attachments/assets/b4259cb3-a18c-48a3-bd23-6a0993d1ce52)
 
 
