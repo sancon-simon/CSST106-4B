@@ -1,7 +1,10 @@
 # Machine Problem 2: Image Processing Techniques 
 ## Sancon, Simon B - BSCS4B
 
-[Colab Notebook](https://colab.research.google.com/drive/1tghjIupyJzLcixliZBXQGbywJ5YWPPdx?usp=sharing)
+[Colab Notebook MP2](https://colab.research.google.com/drive/1tghjIupyJzLcixliZBXQGbywJ5YWPPdx?usp=sharing)
+[Colab Notevook Exer1](https://colab.research.google.com/drive/1ra8S-dnOLtrFGJsRjb7BpxBtTyYQhk7F?usp=sharing)
+
+In here we did MP2 first then finished the Exer1 so exer 1 is like a continuation
 
 ## Hands-On Exploration:
 ### 1. Install OpenCV
