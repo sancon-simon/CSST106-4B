@@ -1,7 +1,6 @@
 # Machine Problem 2: Image Processing Techniques 
 ## Sancon, Simon B - BSCS4B
 
-# Exercise1-Image-Processing-Techniques
 [Colab Notebook](https://colab.research.google.com/drive/1tghjIupyJzLcixliZBXQGbywJ5YWPPdx?usp=sharing)
 
 ## Hands-On Exploration:
