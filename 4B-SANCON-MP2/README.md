@@ -4,8 +4,9 @@
 [Colab Notebook MP2](https://colab.research.google.com/drive/1tghjIupyJzLcixliZBXQGbywJ5YWPPdx?usp=sharing)
 [Colab Notevook Exer1](https://colab.research.google.com/drive/1ra8S-dnOLtrFGJsRjb7BpxBtTyYQhk7F?usp=sharing)
 
-The notebook here was originally EXER1 but,
-In here we did MP2 first then it was overwritten by the Exer1 so EXER 1 is like a continuation
+The notebook here was originally EXER1,
+In here after we did EXER 1, next was the MP2 but,
+The EXER 1 has an additional activity later on thats why MP2 was kinda overwritten
 
 ## Hands-On Exploration:
 ### 1. Install OpenCV
