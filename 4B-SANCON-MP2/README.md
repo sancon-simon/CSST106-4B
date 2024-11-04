@@ -2,8 +2,7 @@
 ## Sancon, Simon B - BSCS4B
 
 # Exercise1-Image-Processing-Techniques
-## Colab Notebook
-https://colab.research.google.com/drive/1ra8S-dnOLtrFGJsRjb7BpxBtTyYQhk7F?usp=sharing
+[Colab Notebook](https://colab.research.google.com/drive/1tghjIupyJzLcixliZBXQGbywJ5YWPPdx?usp=sharing)
 
 ## Hands-On Exploration:
 ### 1. Install OpenCV
@@ -40,16 +39,12 @@ def display_images(img1, img2, title1="Image 1", title2="Image 2"):
 ### 3. Load Image
 
 ```markdown
-from google.colab import files
-from io import BytesIO
-from PIL import Image
+from google.colab import drive
+drive.mount('/content/drive')
 
-uploaded = files.upload()
-image_path = next(iter(uploaded))
-image = Image.open(BytesIO(uploaded[image_path]))
-image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
-
-display_image(image,"Original Image")
+image_path = '/content/drive/MyDrive/photo.jpg'  # Replace with your image path
+image = cv2.imread(image_path)
+display_image(image, "Original Image")
 ```
 
 ### 4. Exercise 1: Scaling and Orientation
