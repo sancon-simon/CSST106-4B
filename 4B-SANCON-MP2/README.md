@@ -4,7 +4,8 @@
 [Colab Notebook MP2](https://colab.research.google.com/drive/1tghjIupyJzLcixliZBXQGbywJ5YWPPdx?usp=sharing)
 [Colab Notevook Exer1](https://colab.research.google.com/drive/1ra8S-dnOLtrFGJsRjb7BpxBtTyYQhk7F?usp=sharing)
 
-In here we did MP2 first then finished the Exer1 so exer 1 is like a continuation
+The notebook here was originally EXER1 but,
+In here we did MP2 first then it was overwritten by the Exer1 so EXER 1 is like a continuation
 
 ## Hands-On Exploration:
 ### 1. Install OpenCV
