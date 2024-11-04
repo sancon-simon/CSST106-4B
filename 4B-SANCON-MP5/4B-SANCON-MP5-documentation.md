@@ -2,9 +2,9 @@
 ## Sancon, Simon B.
 
 ## Important Links
-1. [Actual Notebook]()
-2. [Repository Notebook]()
-3. [Image Folder]()
+1. [Actual Notebook](https://colab.research.google.com/drive/1lCwUBScOdIkUU6DMHGuWE6ZLwNMnXMpX?usp=sharing)
+2. [Repository Notebook](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP5/code/4B_SANCON_MP5.ipynb)
+3. [Image Folder](https://github.com/sancon-simon/CSST106-4B/tree/main/4B-SANCON-MP5/images)
 
 ## Hands-On Exploration
 
@@ -172,3 +172,5 @@ for image_path in image_paths:
 ```
 
 ## 6. Performance Analysis
+
+[Performance Analysis](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-MP5/performance-analysis/4B-SANCON-MP5-performance-analysis.md)
