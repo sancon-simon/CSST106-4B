@@ -2,10 +2,10 @@
 ## Sancon, Simon B - BSCS4B
 
 ## Important Links
-1. [Actual Notebook]()
-2. [Repository Notebook]()
-3. [Image Folder]()
-4. [Performance Analysis]()
+1. [Actual Notebook](https://colab.research.google.com/drive/1S7EYDoqql4NAsAsFb1_713-h5H42PkoV?usp=sharing)
+2. [Repository Notebook](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-EXER4/code/4B_SANCON_EXER4.ipynb)
+3. [Image Folder](https://github.com/sancon-simon/CSST106-4B/tree/main/4B-SANCON-EXER4/images)
+4. [Performance Analysis](https://github.com/sancon-simon/CSST106-4B/blob/main/4B-SANCON-EXER4/performance_analysis/4B-SANCON-EXER4-performance_analysis.md)
 
 ## Hands On Exploration:
 
@@ -59,6 +59,8 @@ from sklearn.svm import SVC
 import zipfile
 import logging
 import time
+import os
+from google.colab import files
 ```
 
 ## Exercise 1: HOG(Histogram of Oriented Gradients) Object Detection
@@ -84,48 +86,70 @@ plt.show()
 ## Exercise 2: YOLO (You Only Look Once) Object Detection
 
 ```markdown
-#Load YOLO model configuration
-net =  cv2.dnn.readNet('/content/drive/MyDrive/yolov3.weights', '/content/drive/MyDrive/yolov3.cfg')
+# Load YOLO model configuration
+net = cv2.dnn.readNet('/content/drive/MyDrive/yolov3.weights', '/content/drive/MyDrive/yolov3.cfg')
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
 
-#Load image
-image = cv2.imread('/content/drive/MyDrive/image_detection.jpg')
-height, width, channels = image.shape
-
-#Preprocess image
-blob = cv2.dnn.blobFromImage(image, 0.00392, (416, 416), (0, 0, 0), True, crop=False)
-net.setInput(blob)
-outs = net.forward(output_layers)
-
+# Load class names
 class_names = []
 with open('/content/drive/MyDrive/coco.names', 'r') as f:
     class_names = [line.strip() for line in f.readlines()]
 
-#Process detections
-for out in outs:
-    for detections in out:
-      scores = detections[5:]
-      class_id = np.argmax(scores)
-      confidence = scores[class_id]
-      if confidence > 0.5:
-        #Draw bounding box
-        center_x = int(detections[0] * width)
-        center_y = int(detections[1] * height)
-        w = int(detections[2] * width)
-        h = int(detections[3] * height)
-        x = int(center_x - w / 2)
-        y = int(center_y - h / 2)
-        cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-        label = str(class_names[class_id])
-        cv2.putText(image, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+# List of image paths to process
+image_paths = [
+    '/content/drive/MyDrive/image_detection.jpg',
+    '/content/drive/MyDrive/folder_photos/image_detect2.jpeg',
+    '/content/drive/MyDrive/folder_photos/image_detect3.jpeg'
+]
 
-#Plot the image
-plt.figuresize = (10, 10)
-plt.axis('off')
-plt.title("YOLO Detection")
-plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
-plt.show()
+# Output directory for processed images
+output_dir = '/content/processed_images'
+os.makedirs(output_dir, exist_ok=True)
+
+# Process each image
+for image_path in image_paths:
+    # Load image
+    image = cv2.imread(image_path)
+    height, width, channels = image.shape
+
+    # Preprocess image
+    blob = cv2.dnn.blobFromImage(image, 0.00392, (416, 416), (0, 0, 0), True, crop=False)
+    net.setInput(blob)
+    outs = net.forward(output_layers)
+
+    # Process detections
+    for out in outs:
+        for detections in out:
+            scores = detections[5:]
+            class_id = np.argmax(scores)
+            confidence = scores[class_id]
+            if confidence > 0.5:
+                # Draw bounding box
+                center_x = int(detections[0] * width)
+                center_y = int(detections[1] * height)
+                w = int(detections[2] * width)
+                h = int(detections[3] * height)
+                x = int(center_x - w / 2)
+                y = int(center_y - h / 2)
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                label = f"{class_names[class_id]} {confidence:.2f}"
+                cv2.putText(image, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+
+    # Plot the image
+    plt.figure(figsize=(10, 10))
+    plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+    plt.axis('off')
+    plt.title("YOLO Detection")
+    plt.show()
+
+      # Save the processed image
+    output_path = os.path.join(output_dir, os.path.basename(image_path))
+    cv2.imwrite(output_path, image)
+    print(f"Processed image saved at: {output_path}")
+
+    # Download the image (for Google Colab)
+    files.download(output_path)
 ```
 
 ![image](https://github.com/user-attachments/assets/112318bf-9097-4b80-8853-95b33b1ffbd4)
